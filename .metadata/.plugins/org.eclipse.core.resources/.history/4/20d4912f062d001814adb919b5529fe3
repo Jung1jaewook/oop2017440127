@@ -1,0 +1,27 @@
+
+public class Twentythree {
+
+	public static void main(String[] args) {
+		// 23.***** *
+		    //*** ***
+		    //* *****
+            //를 출력하시오(반복문 써서!)
+
+		int i = 0, j = 0;
+		
+		while(j<3)
+		{
+			while(i<7)
+			{
+				if(i==6-i)
+					System.out.println(" ");
+				else
+					System.out.println("*");
+				i++;
+			}
+			j++;
+		}
+
+	}
+
+}
