@@ -21,7 +21,7 @@ public class Test {
 		//aa.protectedField = "ddd"; 동일 패키지에서는 public인데 외부 패키기에서는 private 취급
 		//상속은 된다.
 		Rosemary rr = new Rosemary();
-		rr.protectedField = 
+		//rr.protectedField = 
 		
 	}
 
